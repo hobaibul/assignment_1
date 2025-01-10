@@ -126,7 +126,7 @@ section{
 .bd_president{
     background-color: #FFFFFF;
     padding: 48px 24px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .bd_president img{
     position: absolute;
@@ -147,4 +147,58 @@ section{
 }
 .bd_president p{
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* News Style */
+.news_1{
+    display: flex;
+    background-color: #ffffff;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.news_2 {
+    display: flex;
+    background-color: #ffffff;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    flex-direction: row-reverse;
+}
+.news_1 img{
+    width: 408px;
+    border-radius: 24px;
+}
+
+.news_title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.news_logo img{
+    width: 134px;
+}
+.news_data{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.news_description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+    line-height: 24px;
+ 
+}
+.news_btn{
+    padding: 13px 26px;
+    font-size: 18px;
+    background-color: #006A50;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
 }
