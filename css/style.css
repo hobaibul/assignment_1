@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+
+.fira-sans-regular{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Mix CSS */
+
+body{
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #F1F1F3;
+    
+}
+section{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.primary_btn{
+    background-color: #006A50;
+    padding: 17px 34px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section_tilte{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.section_description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+
+/* bannar Style */
+.bannar{
+    display: flex;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    gap: 64px;
+    border-radius: 24px;
+    height: 560px;
+
+}
+.bannar_contant h4{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.bannar_contant h1{
+    font-size: 56px;
+    color: #0E0E0E;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.all_card{
+    display: flex;
+    gap: 30px;
+}
+.card_1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding:32px;
+    border-radius: 16px;
+    
+}
+.card_2{
+    background-color: #C6E4D6;
+    padding:32px;
+    border-radius: 16px;
+    
+}
+.card_3{
+    background-color: #F7EBCF;
+    padding:32px;
+    border-radius: 16px;
+    
+}
+.all_card img{
+    width: 62px;
+    margin-bottom: 24px;
+}
+.all_card h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.all_card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.card_btn{
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #5490F5;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card_2 >.card_btn{
+    background-color: #09A15C;
+}
+.card_3 > .card_btn{
+    background-color: #FFC239;
+}
+
+/* President Section */
+.bd_president{
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border-radius: 10px;
+}
+.bd_president img{
+    position: absolute;
+}
+.bd_president_description{
+    position: relative;
+    top: 25px;
+    margin-bottom: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    
+}
+.bd_president h4{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    line-height: 24px;
+}
+.bd_president p{
+    color: rgba(14, 14, 14, 0.6);
+}
